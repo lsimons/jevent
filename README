@@ -1,0 +1,7 @@
+Just a stupid exploration of some of the ideas in the book "RESTful web services". My
+goal was to take the example approach given in the book for building a ROA application,
+and applying it to some code sketches I already had lying around.
+
+In an attempt to be truly minimalist, I even ripped out the RDBMS backend I had for
+this stuff and replaced it with a basic serialization/deserialization setup. Don't try
+this at home; this is _not_ a good idea at all. You have been warned.

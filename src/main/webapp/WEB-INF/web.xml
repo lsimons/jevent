@@ -1,0 +1,43 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+    
+    <servlet>
+        <servlet-name>queue</servlet-name>
+        <servlet-class>nl.jicarilla.jevent.servlets.QueueServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>subscription</servlet-name>
+        <servlet-class>nl.jicarilla.jevent.servlets.SubscriptionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>queue</servlet-name>
+        <url-pattern>/queue</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>queue</servlet-name>
+        <url-pattern>/queue/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>queue</servlet-name>
+        <url-pattern>/queue/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>subscription</servlet-name>
+        <url-pattern>/subscription</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>subscription</servlet-name>
+        <url-pattern>/subscription/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>subscription</servlet-name>
+        <url-pattern>/subscription/*</url-pattern>
+    </servlet-mapping>
+</web-app>
